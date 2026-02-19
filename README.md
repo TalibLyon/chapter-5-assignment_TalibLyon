@@ -16,7 +16,7 @@ This assignment demonstrates mastery of while loops, for loops, and nested loops
 ### Step 1: Collatz Sequence - While Loop
 
 **Why while loop?**  
-[Explain why a while loop is the best choice for this problem. Consider: Do you know how many iterations beforehand? What condition determines when to stop?]
+[A while loop is the best choice because we do not know ahead of time how many iterations will happen. The sequence continues until the number becomes 1, and that depends entirely on the starting value. Since the stopping condition is based on a condition rather than a fixed count, a while loop makes the most sense]
 
 **How it works:**  
 [Provide a brief explanation of your implementation. What variables did you use? How does your loop condition work?]
