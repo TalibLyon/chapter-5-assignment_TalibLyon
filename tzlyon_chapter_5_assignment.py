@@ -69,6 +69,8 @@ else:
 # Step 3: Multiplication Table (Nested Loops)
   
 # Nested loops are needed because a multiplication table has rows and columns. One loop controls the rows, and the other controls the columns.
+# The Outer loop creates each row. The inner loop calculates and prints the values in that row.
+# The program prints numbers  1-10 across  the top.  The outer loop runs  through each  row, and the  inner loop multiplies the row number by 1-10 to create a table.
 
 print("\nMultiplication Table:")
 
