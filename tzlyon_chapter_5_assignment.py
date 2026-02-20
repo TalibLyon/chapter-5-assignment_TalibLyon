@@ -42,4 +42,24 @@ while current_number != 1:
 print(1)
 print("Steps:", steps)
 
+# Step 2: Prime Checker
+
+number = int(input("\nEnter a number: "))
+
+if number <= 1:
+    print(f"{number} is not prime.")
+else:
+    print(f"Testing divisors from 2 to {number - 1}...")
+    
+    is_prime = True
+    
+    for divisor in range(2, number):
+        if number % divisor == 0:
+            is_prime = False
+            break
+    
+    if is_prime:
+        print(f"{number} is prime!")
+    else:
+        print(f"{number} is not prime.")
 
