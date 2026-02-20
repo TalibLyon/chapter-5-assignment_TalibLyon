@@ -15,7 +15,8 @@ AI Usage: Used for clarification of loop explanations and structure guidance.
 
 print("=== Collatz Sequence ===")
 print("=== Collatz Sequence ===")
-
+#A while loop is the best choice because we do not know ahead of time how many iterations will happen. The sequence continues until the number becomes 1, and that depends entirely on the starting value. Since the stopping condition is based on a condition rather than a fixed count, a while loop makes the most sense
+#The program works by taking a starting number and uses a while loop to apply the Collatz rules until the number becomes 1. Even numbers are divided by 2, and odd numbers are multiplied by 3 and increased by 1. Theres a counter that keeps track of how many steps it takes to reach 1.
 starting_number = int(input("Enter starting number: "))
 
 current_number = starting_number
@@ -43,7 +44,8 @@ print(1)
 print("Steps:", steps)
 
 # Step 2: Prime Checker
-
+#A for loop is used because we know the specific range of possible to test, making the number of iterations predictable.
+#The program uses a for loop to test disivibility from 2 to one less than the number. If the number divides evenly by any value, it is not prime; otherwise, it is prime. 
 number = int(input("\nEnter a number: "))
 
 if number <= 1:
