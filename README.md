@@ -19,7 +19,7 @@ This assignment demonstrates mastery of while loops, for loops, and nested loops
 [A while loop is the best choice because we do not know ahead of time how many iterations will happen. The sequence continues until the number becomes 1, and that depends entirely on the starting value. Since the stopping condition is based on a condition rather than a fixed count, a while loop makes the most sense]
 
 **How it works:**  
-[Provide a brief explanation of your implementation. What variables did you use? How does your loop condition work?]
+[ The program works by taking a starting number and uses a while loop to apply the Collatz rules until the number becomes 1. Even numbers are divided by 2, and odd numbers are multiplied by 3 and increased by 1. Theres a counter that keeps track of how many steps it takes to reach 1.]
 
 **Example:**
 ```
@@ -33,10 +33,10 @@ Steps: 9
 ### Step 2: Prime Checker - For Loop
 
 **Why for loop?**  
-[Explain why a for loop is the best choice for this problem. Consider: Do you know the range of values to check? Is the iteration count predictable?]
+[A for loop is used because we know the specific range of possible to test, making the number of iterations predictable.]
 
 **How it works:**  
-[Provide a brief explanation of your implementation. How do you test for divisibility? What happens when you find a divisor?]
+[The program uses a for loop to test disivibility from 2 to one less than the number. If the number divides evenly by any value, it is not prime; otherwise, it is prime. ]
 
 **Example:**
 ```
@@ -50,13 +50,13 @@ Testing divisors from 2 to 16...
 ### Step 3: Multiplication Table - Nested Loops
 
 **Why nested loops?**  
-[Explain why nested loops are necessary for this problem. What does the outer loop do? What does the inner loop do?]
+[Nested loops are needed because a multiplication table has rows and columns. One loop controls the rows, and the other controls the columns.]
 
 **Outer vs Inner:**  
-[Explain which loop handles rows and which handles columns, and why this organization makes sense.]
+[The Outer loop creates each row. The inner loop calculates and prints the values in that row.]
 
 **How it works:**  
-[Provide a brief explanation of your implementation. How did you format the output? What techniques did you use for alignment?]
+[The program prints numbers  1-10 across  the top.  The outer loop runs  through each  row, and the  inner loop multiplies the row number by 1-10 to create a table.]
 
 **Example:**
 ```
@@ -73,15 +73,15 @@ Multiplication Table:
 
 **Why all three?**  
 [Explain why this problem requires all three loop types:]
-- **While loop:** [What part uses while and why?]
-- **For loop:** [What part uses for and why?]
-- **Nested loops:** [What part uses nested loops and why?]
+- **While loop:** [While loop is used to keep asking for input until the user enters -1.]
+- **For loop:** [For loop is Used to calculate tootal, minimun, maximum, as well as average.]
+- **Nested loops:** [# Nested loop is used to create the bar chart with stars for each  number.]
 
 **How it works:**  
 [Provide a comprehensive explanation of your implementation:]
-- How you collect data
-- How you calculate statistics
-- How you create the bar chart
+- The program collects positive numbers using a while loop until -1 is entered.
+- A for loop calculates the statistics.
+- Nested loops generate a bar chart when each number is represented by stars
 
 **Example:**
 ```
@@ -112,19 +112,18 @@ Maximum: 15
 ### Edge Cases Considered
 
 [List any edge cases you thought about or tested:]
-- Example: What happens with very large numbers in Collatz?
-- Example: How does the prime checker handle 2?
-- Example: What if user enters only one number in statistics?
+- Example: Collatz with big numbers
+- Example: Trying to input -1 immediately
 
 ---
 
 ## Challenges and Solutions
 
-### Challenge 1: [Describe a challenge you faced]
-**Solution:** [How you solved it]
+### Challenge 1: [Github was not syncing my repository together]
+**Solution:** [I solved it by going back and seeing what  was wrong in my folders and during this process it was revealed to me by a TA that i was doing the assignment wrong. I received help the help  needed, i fixed my code, and synced everything up.]
 
-### Challenge 2: [Describe another challenge]
-**Solution:** [How you solved it]
+### Challenge 2: [Formatting Everything]
+**Solution:** [I solved by trial and error and as i went  further down the  line, it started looking right. The multiplication  table was also hard but i just needed to fix the  string spacing and align the column correctly]
 
 [Add more if needed]
 
@@ -143,21 +142,19 @@ Maximum: 15
 
 [Choose one:]
 
-**Option A - No AI Used:**
-No AI assistance was used in completing this assignment. All code and logic were developed independently through problem-solving and reference to course materials.
 
 **Option B - AI Used (be specific):**
 AI assistance was used for the following:
 
 1. **[Specific concept]:**  
-   - What you asked: [The question or prompt]
-   - What you learned: [What the AI helped clarify]
-   - How you used it: [How you applied this to your code]
+   - What you asked: [I asked  Ai to clarify loop concepts and explanations for their uses]
+   - What you learned: [I relearned where each type of loop goes where]
+   - How you used it: [I used this knowledge to place each loop where they needed to be in order for the code to be correct.]
 
-2. **[Another specific concept]:**  
-   - What you asked: [The question or prompt]
-   - What you learned: [What the AI helped clarify]
-   - How you used it: [How you applied this to your code]
+2. **[AI Collatz]:**  
+   - What you asked: [I asked what are  the rules of the collatz sequence and what it even is]
+   - What you learned: [I learned what the Collatz Sequence is, the counting  iterations, and the rules.]
+   - How you used it: [I applied the my own loop to collatz sequence and made it fit to my code]
 
 **All core logic and implementation were developed independently after understanding the concepts.**
 
@@ -170,5 +167,5 @@ This assignment was developed incrementally with meaningful commits:
 
 **Declaration:** I certify that this assignment is my own work and I have not copied code from other students or unauthorized sources. Any AI assistance used has been properly documented above.
 
-**Signature:** [Your Name]  
-**Date:** [Date]
+**Signature:** [Talib Lyon]  
+**Date:** [2/20.26]
